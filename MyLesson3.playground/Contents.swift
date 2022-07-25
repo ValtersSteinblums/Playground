@@ -105,7 +105,7 @@ var fruitsList: [String: [String]] = [
     "B" : ["Banana", "Blueberry"]
 ]
 
-fruitsList["B"]
+fruitsList["B"]?[0]
 
 // for loop
 
